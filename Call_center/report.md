@@ -1,34 +1,33 @@
-# PhoneNow Performance Dashboard - Final Report
-The PhoneNow Performance Dashboard was created to provide a comprehensive and intuitive overview of key call center metrics. This dashboard enables PhoneNow to track performance, customer satisfaction, and agent efficiency in real-time. Here's an overview of the components and calculations used in the dashboard:
+# PhoneNow Performance Dashboard
 
-## Key Components and Metrics
-### Customer Satisfaction (CSAT) Gauge:
+## Objective
+This dashboard was created to provide insights into the call center operations of **PhoneNow**, with a focus on improving efficiency and understanding key performance indicators (KPIs). The goal is to help call center managers monitor important metrics such as customer satisfaction, call resolution rates, agent performance, and call abandonment trends.
+![image](https://github.com/user-attachments/assets/752280e3-e064-47a8-8fb3-81c496d7b027)
 
-* Metric: Customer satisfaction percentage (68.07%).
-Calculation: The CSAT percentage was calculated by averaging customer satisfaction scores, typically on a scale from 1 to 5, and converting the results into a percentage.
-Answered Calls Card:
-* Metric: The total number of calls answered (4,054 calls).
-Calls Resolved: 89.94% of the calls were resolved.
-Calculation: The number of answered calls was calculated by counting the calls marked as answered, while the percentage of resolved calls was calculated by dividing resolved calls by the total answered calls.
-  ### Abandoned Calls:
 
-* Metric: 946 total abandoned calls and an 18.92% abandonment rate.
-Calculation: Abandoned calls were counted, and the abandonment rate was calculated by dividing abandoned calls by the total calls and multiplying by 100.
-Call Metrics:
+## Description
+The **PhoneNow Performance Dashboard** offers interactive visuals to track and assess the overall performance of the call center. Key metrics include:
+- **Customer Satisfaction**: Displays the satisfaction rate of customers as a gauge.
+- **Answered Calls**: Total calls answered and percentage of calls resolved.
+- **Abandoned Calls**: Displays the number of calls abandoned, segmented by day of the week.
+- **Agent Statistics**: Shows the number of calls answered and resolved by each agent.
+- **Call Metrics**: Visualizes the average talk duration and wait times for calls.
 
-* Average Talk Duration: 3 min 44 sec.
-Average Wait Time: 68 seconds.
-Calculation: Both average talk duration and wait times were calculated by averaging the respective time fields in the dataset.
-Agent Performance:
+The dashboard also includes filtering options for:
+- **Date Range**: Allows users to select specific periods for analysis.
+- **Day of Week**: Filters call data based on the selected days (e.g., only show calls on Mondays or weekends).
+- **Agent**: Filters performance data for specific agents.
+- **Topic**: Allows filtering based on the topic of the calls.
 
-Metric: Displayed the number of calls answered per agent. For instance, Jim answered 536 calls, Dan answered 523, and Becky answered 517.
-Calculation: This table shows a simple count of answered calls per agent.
-Calls by Day of the Week (Bar Chart):
+## Key Findings
+- **Customer Satisfaction**: The satisfaction rate is **68.07%**, indicating that there’s room for improvement in customer service quality.
+- **Call Resolution**: The call resolution rate is high, with **89.94%** of calls successfully resolved.
+- **Abandonment Rate**: The overall abandonment rate is **18.92%**, with the highest abandonment rates on **Monday** (770) and **Saturday** (768).
+- **Agent Performance**: **Jim** and **Dan** are the top-performing agents, while **Diane** and **Joe** have the highest resolution rates.
+- **Call Duration**: The average talk duration is **3 minutes 44 seconds**, and the average customer wait time is **68 seconds**.
 
-Metric: Number of abandoned calls per day. Saturday had the highest number of abandoned calls (154), followed by Monday (141).
-Calculation: This bar chart shows abandoned calls grouped by the day of the week, sorted in the correct order from Monday to Sunday.
-Filters:
+## Suggested Actions
+- Address the high abandonment rate on **Monday** and **Saturday** by increasing staffing or redistributing resources during peak times.
+- Provide additional training to agents with lower resolution rates to ensure call efficiency and effectiveness.
+- Focus on reducing **wait times** to decrease the abandonment rate and improve the overall customer experience.
 
-Time Filter (Month): Allows filtering the data by specific months.
-Day of the Week Filter: Allows filtering by days of the week.
-Agent Filter: Allows filtering to view data by individual agents.
